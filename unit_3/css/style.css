@@ -1,0 +1,56 @@
+
+
+#header {
+/*	background: url("horzblackwood.jpg");
+	max-height: 300px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	text-align: left;
+	text-align; top;
+	color: #FF430A;
+	text-align: left;
+	font-weight: bold;
+	font-family: "Arial Black";
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;*/
+}
+body {
+	background: url("clams.jpg");
+	background-repeat: no-repeat;
+	background-size; cover;
+	font-family: "Gill Sans";
+	color: black;
+	text-align: center;
+}
+
+	
+
+#slogan{	
+	
+	/*background: url("clamfishing.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	color: black;
+	padding-right: 300px;
+	/*padding-bottom: 200px;*/
+	padding-left: 300px;
+	padding-top: 20px;
+	font-size: 40px;
+	font-weight: 600;
+	/*font-style: italic;*/
+	text-align: top;
+	margin-top: 10px;
+}
+
+/*#list{
+	
+	text-align: center;
+}*/
+
+ul {
+	text-align: center;
+	list-style-type: none;
+}
