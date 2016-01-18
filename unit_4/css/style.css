@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+
+#header {
+	font-family: 'Rock Salt', cursive;
+	font-size: 72px;
+	/*background: url("horzblackwood.jpg");
+	max-height: 300px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	text-align: left;
+	text-align; top;*/
+	/*color: #FF430A;*/
+	color: white;
+	text-align: center;
+
+	/*margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;*/
+}
+
+body {
+	background: url("sunwake.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*font-family: 'Gentium Book Basic', serif;
+	font-size: 24px;
+	color: white;
+	text-align: center;*/
+}
+
+#slogan {	
+	font-family: 'Rock Salt', cursive;
+	/*background: url("clamfishing.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	text-align: center;
+	color: white;
+	/*padding-right: 300px;*/
+	/*padding-bottom: 200px;*/
+	/*padding-left: 300px;*/
+	font-size: 24px;
+	/*font-weight: 600;*/
+}
+
+#contact {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 64px;
+	color: white;
+	text-align: center;
+}
+
+#list {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 28px;
+	color: white;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 20px;
+	color: white;
+	line-height: 1.5em;
+}
+
+a {
+	list-style-type: none;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
