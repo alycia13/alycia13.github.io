@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+*,
+*:before, /*modern css reset*/
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	background: url("sunwake.jpg");
+	background-size: cover;
+	font-family: 'Gentium Book Basic', serif;
+}
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+#one {
+	display: inline-block;
+	background: rgba(0,0,0,.35);
+	margin: 0 auto;
+}
+header {
+	font-family: 'Rock Salt', cursive;
+	font-size: 32px;
+	background: url("horzblackwood.jpg");
+	background-size: cover;
+	padding: 0px 20px 0px 20px;
+	color: #FF430A;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+header h1 {
+	display: inline-block;
+	text-align: center;
+}
+header img{
+	padding: 0px 20px;
+	float: left;
+	position: relative;
+}
+
+nav {
+	list-style-type: none;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 16px;
+	color: white;
+	overflow: hidden;
+	width: 100%;
+}
+.header li {
+	display: inline;
+	float: center;	
+}
+.header li a {
+	display: inline-block;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	margin: 0;
+	text-decoration: none; /*Gets rid of the underline*/
+}
+.header li a:hover {
+	background-color: #FF430A;
+	border-radius: 15px 15px 0px 0px;
+}
+
+
+#gallery {
+	height: 420px;
+	overflow: scroll;
+	width: 60%;
+	float: right;
+	padding-right: 80px;
+	border-radius: 0 25px 25px 0;
+} 
+#gallery .fishing img{
+	width: 45%;	
+	margin: 3px;
+	float: right;
+	display: inline-block;
+}
+
+
+.about h1 {
+	font-size: 32px;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+}
+.about {
+	font-size: 18px;
+	color: white;
+	padding: 20px 0px 20px 70px;
+	text-align: center;
+	font-family: Arial;
+	width: 40%;
+	height: 420px;
+	overflow: scroll;
+	float: left; /*allows gallery to be on same line as about box */
+	border-radius: 25px 0 0 25px;
+}
+#cta {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+	background-color: #FF430A;
+	border-radius: 15px;
+	padding: 0 .25em;
+	margin-bottom: 10px;
+}
+
+#two {
+	display: inline-block;
+	background: rgba(0,0,0,.35);
+}
+
+#report h1 {
+	font-size: 32px;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+}
+#report {
+	font-size: 18px;
+	color: white;
+	font-family: Arial;
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+	height: 100%;
+	padding: 20px;
+	overflow: scroll;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+#report a {
+	color: #FF430A;
+	/*text-decoration: none;*/
+}
+#clean {
+	float: left;
+	width: 33%;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+#weather {
+	float: right;
+	font-size: 22px;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+	color: white;
+	width: 33%;
+	text-align: center;
+	padding: 20px;
+
+}
+
+footer {
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	clear: both;
+}
