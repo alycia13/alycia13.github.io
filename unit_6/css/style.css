@@ -24,7 +24,6 @@ body {
 #one {
 	display: inline-block;
 	background: rgba(0,0,0,.35);
-	margin: 0 auto;
 }
 header {
 	font-family: 'Rock Salt', cursive;
@@ -139,12 +138,9 @@ nav {
 	height: 100%;
 	padding: 20px;
 	overflow: scroll;
-	border-left: 1px solid white;
-	border-right: 1px solid white;
 }
 #report a {
-	color: #FF430A;
-	/*text-decoration: none;*/
+	color: white;
 }
 #clean {
 	float: left;
