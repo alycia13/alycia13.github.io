@@ -121,6 +121,10 @@ footer {
 	padding: 1em 0;
 	clear: both;
 }
+#notice a {
+	color: white;
+	
+}
 
 @media only screen and (max-width: 1090px) {
 	body {
