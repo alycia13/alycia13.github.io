@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+*,
+*:before, /*modern css reset*/
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	background: url("sunwake.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 24px;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	font-family: 'Rock Salt', cursive;
+	font-size: 1.45em;
+	background: url("horzblackwood.jpg");
+	background-size: cover;
+	/*padding: 20px 25px 20px 0px;*/
+	padding: 0px;
+	color: #FF430A;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+header h1 {
+	display: inline-block;
+	text-align: center;
+	/*padding: none;*/
+	position: relative;
+	left: -30px;
+}
+header p {
+	text-align: center;
+	font-size: .5em;
+	position: relative;
+	padding-bottom: 0em;
+	top: -25px;
+	line-height: .5em;
+}
+header img {
+	padding-left: 10px;
+	float: left;
+	position: relative;
+	/*top: -200px;*/
+	padding-bottom: 0em;
+	right: -40px;
+}
+
+nav {
+	list-style-type: none;
+	font-size: .67em;
+	color: white;
+	overflow: hidden;
+	width: 100%;
+}
+.header li {
+	display: inline;
+	float: center;	
+}
+.header li a {
+	display: inline-block;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	margin: 0;
+	text-decoration: none;
+}
+.header li a:hover {
+	background-color: #FF430A;
+	border-radius: 15px 15px 0px 0px;
+}
+
+#one {
+	display: inline-block;
+	background: rgba(0,0,0,.35);
+	width: 100%;
+}
+
+#gallery {
+	height: auto;
+	width: 60%;
+	display: inline-block;
+	float: right;
+} 
+/*#gallery .fishing img {
+	width: 45%;	
+	margin: 3px;
+	float: right;
+	display: inline-block;
+}*/
+
+#owl-demo {
+	padding: 0em 2em;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.about h1 {
+	font-size: 1.3em;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+}
+.about {
+	font-size: 0.75em;
+	color: white;
+	padding: 20px 0px 20px 70px;
+	text-align: center;
+	font-family: Arial;
+	width: 40%;
+	height: auto;
+	/*overflow: scroll;*/
+	float: left; /*allows gallery to be on same line as about box */
+/*	border-radius: 25px 0 0 25px;*/
+}
+#cta {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	font-size: 2em;
+	text-decoration: none;
+	background-color: #FF430A;
+	text-shadow: 2px 2px 4px #000000;
+	border-radius: 15px;
+	border-style: outset;
+	padding: .5em 1em;
+}
+
+#two {
+	display: inline-block;
+	background: rgba(0,0,0,.35);
+}
+
+#report h1 {
+	font-size: 1.3em;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+}
+#report {
+	font-size: 0.75em;
+	color: white;
+	font-family: Arial;
+	width: 33.3%;
+	text-align: center;
+	display: inline-block;
+	height: 100%;
+	padding: 1em;
+	/*overflow: scroll;*/
+	margin: none; 
+}
+#report a {
+	color: white;
+}
+#clean {
+	float: right;
+	width: 33.3%;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+#weather {
+	float: right;
+	font-size: 0.75em;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+	color: white;
+	width: 33.3%;
+	text-align: center;
+	padding: .83em;
+}
+
+footer {
+	font-family: Arial;
+	font-size: .75em;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	clear: both;
+}
+
+@media only screen and (max-width: 480px) {
+	section {
+		float: none;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 1090px) {
+	body {
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+}
+	.header li a {
+		display: block;
+	}
+	header img {
+		display: none;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.wrapper {
+		width: 95%;
+	}
+	body {
+		font-size: 13px;
+	}
+	header img {
+		display: none;
+	}
+	#gallery, #clean {
+		display: none;
+	}
+	#weather, #report {
+		display: block;
+		text-align: center;
+		float: none;
+		width: 90%;
+		padding: none;
+		margin: 0 auto;
+	}
+	.about {
+		width: 90%;
+		text-align: center;
+		padding: none;
+		float: none;
+		display: block;
+		height: 100%;
+	}
+	.header li a:hover {
+		border-radius: 5px;
+}
+	#cta {
+		padding: .75em 1em;
+		font-size: 1.2em;
+		border-radius: 5px;
+	}
+	header {
+		font-size: 1.2em;
+	}
+}
