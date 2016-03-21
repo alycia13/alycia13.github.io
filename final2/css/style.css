@@ -67,6 +67,7 @@ nav {
 	color: white;
 	overflow: hidden;
 	width: 100%;
+	/*background-color: rgba(0,0,0,.60);*/
 }
 .header li {
 	display: inline;
@@ -78,15 +79,23 @@ nav {
 	font-size: 1em;
 	color: white;
 	text-align: center;
-	padding: 10px 16px;
-	margin: 0px;
+	padding: 8px 16px;
+	margin: 0;
 	text-decoration: none;
 	line-height: 1em;
 	/*overflow: hidden;*/
+	
 }
 .header li a:hover {
-	background-color: #FF430A;
-	border-radius: 15px 15px 0px 0px;
+	/*background-color: #FF430A;
+	border-radius: 15px 15px 0px 0px;*/
+	color: #FF430A;
+	 
+}
+
+
+#hamburger {
+    display: none;
 }
 /*HOME PAGE CSS*/
 #one {
@@ -465,7 +474,7 @@ footer {
 	header p {
 		display: none;
 	}
-		#gallery, #clean {
+	#gallery, #clean {
 		display: none;
 	}
 	#weather, #report {
@@ -487,11 +496,11 @@ footer {
 	.header li a:hover {
 		border-radius: 5px;
 	}
-	#cta {
+	/*#cta {
 		padding: .75em 1em;
 		font-size: 1.2em;
 		border-radius: 5px;
-	}
+	}*/
 	#social i {
 	width: 40px;
 	height: 40px;
@@ -543,4 +552,24 @@ footer {
 	#icons {
 	padding: 2em 4em;
 	display: inline-block;
-}
+	}
+	#hamburger {
+	background-color: #FF430A; 
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 3px;
+    position: relative;
+    width: 8%;
+    margin: 0 auto;
+	}
+	#hamburger div {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px 2px 2px 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
+	}
+
