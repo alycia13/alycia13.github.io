@@ -1,0 +1,546 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+*,
+*:before, /*modern css reset*/
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	background-image: url("wake.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 24px;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	color: white;
+}
+
+header {
+	font-family: 'Rock Salt', cursive;
+	font-size: 1.45em;
+	background: url("horzblackwood.jpg");
+	background-size: cover;
+	color: #FF430A;
+	text-align: center;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+header h1 {
+	text-align: center;
+	position: relative;
+	left: -30px;
+}
+header p {
+	text-align: center;
+	font-size: .5em;
+	position: relative;
+	padding-bottom: 0em;
+	top: -25px;
+	line-height: .5em;
+}
+header img {
+	padding-left: .24em;
+	float: left;
+	position: relative;
+	padding-bottom: 0em;
+	right: -40px;	
+	width: 5em;
+	height: 6.25em;
+	align: left;
+
+}
+
+nav {
+	list-style-type: none;
+	font-size: .67em;
+	color: white;
+	overflow: hidden;
+	width: 100%;
+}
+.header li {
+	display: inline;
+	overflow: hidden;	
+}
+.header li a {
+	display: inline;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	margin: 0px;
+	text-decoration: none;
+	line-height: 1em;
+	/*overflow: hidden;*/
+}
+.header li a:hover {
+	background-color: #FF430A;
+	border-radius: 15px 15px 0px 0px;
+}
+/*HOME PAGE CSS*/
+#one {
+	display: block;
+	background: rgba(0,0,0,.35);
+	width: 100%;
+	overflow: hidden;
+}
+
+#gallery {
+	height: auto;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+} 
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.about h1 {
+	font-size: 1.3em;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+}
+.about {
+	font-size: 0.75em;
+	color: white;
+	padding: 2em;
+	text-align: center;
+	font-family: Arial;
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	line-height: 1.25em;
+	
+}
+#cta {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	font-size: 2em;
+	text-decoration: none;
+	background-color: #FF430A;
+	text-shadow: 2px 2px 4px #000000;
+	border-radius: 15px;
+	border-style: outset;
+	padding: .5em 1em;
+	line-height: 4em;
+}
+
+#two {
+	display: inline-block;
+	background: rgba(0,0,0,.35);
+}
+
+#report h1 {
+	font-size: 1.3em;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+}
+#report {
+	font-size: 0.75em;
+	color: white;
+	font-family: Arial;
+	width: 33.3%;
+	text-align: center;
+	display: inline-block;
+	height: 100%;
+	padding: 1em;
+	/*overflow: scroll;*/
+	margin: none; 
+}
+#report a {
+	color: white;
+}
+#clean {
+	float: right;
+	width: 33.3%;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+#weather {
+	float: right;
+	font-size: 0.75em;
+	font-family: 'Gentium Book Basic', serif; 
+	text-decoration: underline;
+	color: white;
+	width: 33.3%;
+	text-align: center;
+	padding: .83em;
+}
+/*END HOME*/
+
+/*Rentals CSS*/
+#all {
+	background: rgba(0,0,0,.35);
+	padding: 2em;
+	color: white;
+}
+
+#boatrental {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 1em;
+}
+#boatrental h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 1.6em;
+}
+
+#boatrental h3, #boatrental2 h3 {
+	font-size: 1em;
+	font-family: 'Gentium Book Basic', serif;
+}
+
+#boats {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding: 0em 2em;
+}
+
+#boatrental p, #boatrental2 p {
+	font-family: Arial;
+	font-size: .83em;
+	float: left;
+}
+#boatpics {
+	padding: 0em 5em 2em 0em;
+}
+#boatpics img {
+	float: right;
+	display: inline-block;
+	width: 30%;
+}
+#boatrental2 {
+	display: inline-block;
+	width: 100%;
+	padding: 2em;
+	margin-top: 1em;
+}
+#houseboat {
+	width: 50%;
+	float: left;
+	/*padding: 0em 2em;*/
+}
+
+#houseboatpic img {
+	float: right;
+	display: inline-block;
+	width: 40%;
+	padding-right: 2em;
+}
+/*END RENTALS*/
+
+/*REPORT CSS*/
+#reports {
+	background: rgba(0,0,0,.35);
+	padding: 2em 7em;
+	color: white;
+}
+#reports h1 {
+	text-align: center;
+}
+
+#reports h3 {
+	/*text-decoration: underline;*/
+	font-size: 1em;
+}
+#reports p {
+	font-family: Arial;
+	font-size: .75em;
+}
+.fishspread {
+	display: block;
+	margin: 0 auto;
+	padding: 0em 7em;
+}
+
+/*END REPORT*/
+
+/*SUMMER FISHING CSS*/
+#summer {
+	background-image: url("sunset.jpg") !important; 
+}
+
+#summer1 {
+	display: inline-block;
+	background: rgba(0,0,0,.50);
+	padding: 1em;
+	color: white;
+}
+
+#summer1 h1, h2 {
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+#summer1 h3 {
+	text-decoration: underline;
+	font-size: .9em;
+}
+
+#summer1 p {
+	font-family: Arial;
+	font-size: .75em;
+}
+
+.amenities li {
+	font-family: Arial;
+	font-size: .75em;
+	text-decoration: none;
+}
+
+#notice a {
+	color: white;
+}
+
+/*END SUMMER FISHING*/
+
+/*WINTER FISHING CSS*/
+#winter {
+	background-image: url("clams.jpg") !important;
+}
+
+#winter1 {
+	display: inline-block;
+	background: rgba(0,0,0,.50);
+	padding: 1em;
+	color: white;
+}
+
+#winter1 h1, h2 {
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+#winter1 h3 {
+	text-decoration: underline;
+	font-size: .9em;
+}
+
+#winter1 p {
+	font-family: Arial;
+	font-size: .75em;
+}
+
+
+/*END WINTER FISHING*/
+
+/*GALLERY CSS*/
+#gallery1 {
+	background: rgba(0,0,0,.35);
+}
+
+#gallery1 h1 {
+	font-family: 'Gentium Book Basic', serif;
+	color: white;	
+	text-align: center;
+	padding-top: 1em;
+}
+#fishingpics #owl-demo {
+	width: 90%;
+	padding: 2em;
+	margin: 0 auto;
+}
+#fishingpics #owl-demo .item{
+  margin: 3px;
+}
+#fishingpics #owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*END GALLERY*/
+
+
+/*CONTACT CSS*/
+#contact2 {
+	background: rgba(0,0,0,.35);
+	height: 700px;
+}
+
+#social {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#social h1 {
+	text-align: center;
+	padding-top: 1em;
+}
+#social p {
+	font-family: Arial;
+	font-size: .75em;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+#social a {
+	color: white;
+}
+#icons {
+	padding: 2em 13em;
+	display: inline-block;
+}
+#social i {
+width: 64px;
+height: 64px;
+line-height: 68px;
+text-align: center; 
+background-color: #FF430A;
+border-radius: 50%;
+font-size: 48px;
+}
+#facebook i:hover {
+	background-color: #3B5998;
+}
+#twitter i:hover {
+	background-color: #55acee;
+}	
+#instagram i:hover {
+	background-color: #3f729b;
+}
+#mail i:hover {
+	background-color: #dc4e41;
+}
+
+/*END CONTACT*/
+
+footer {
+	font-family: Arial;
+	font-size: .75em;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	clear: both;
+}
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 1090px) {
+	body {
+		font-size: 22px;
+	}
+	header {
+		font-size: 1em;
+	}
+	.wrapper {
+		width: 100%
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+
+	header {
+		font-size: .75em
+	}
+	.header li a {
+		display: block;
+	}
+	header img {
+		display: none;
+	}
+	header p {
+		display: none;
+	}
+		#gallery, #clean {
+		display: none;
+	}
+	#weather, #report {
+		display: block;
+		text-align: center;
+		float: none;
+		width: 90%;
+		padding: none;
+		margin: 0 auto;
+	}
+	.about {
+		width: 90%;
+		text-align: center;
+		padding: none;
+		float: none;
+		display: block;
+		height: 100%;
+	}
+	.header li a:hover {
+		border-radius: 5px;
+	}
+	#cta {
+		padding: .75em 1em;
+		font-size: 1.2em;
+		border-radius: 5px;
+	}
+	#social i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center; 
+	background-color: #FF430A;
+	border-radius: 50%;
+	font-size: 32px;
+	}
+	#icons {
+	padding: 2em 10em;
+	display: inline-block;
+
+}
+@media only screen and (max-width: 480px) {
+	section {
+	float: none;
+	width: auto;
+	}
+
+	nav {
+	height: 0;
+	overflow: hidden;
+	}
+
+	nav .active { 
+		height: 300px; 
+	}
+	
+	header h1 {
+		font-size: 1.5em;
+		padding-left: 2.4em;
+		
+	}
+	header p {
+		display: none;
+	}
+
+	.wrapper {
+		width: 100%;
+	}
+	body {
+		font-size: 13px;
+	}
+	header {
+		font-size: 1.2em;
+		text-align: center;
+	}
+	#icons {
+	padding: 2em 4em;
+	display: inline-block;
+}
