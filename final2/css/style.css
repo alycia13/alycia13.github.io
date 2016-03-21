@@ -90,7 +90,7 @@ nav {
 	/*background-color: #FF430A;
 	border-radius: 15px 15px 0px 0px;*/
 	color: #FF430A;
-	 
+
 }
 
 
@@ -524,10 +524,11 @@ footer {
 	nav {
 	height: 0;
 	overflow: hidden;
+	-webkit-transition: all 1s ease-in-out;   -moz-transition: all 1s ease-in-out;   -o-transition: all 1s ease-in-out;   transition: all 1s ease-in-out;
 	}
 
-	nav .active { 
-		height: 300px; 
+	nav.active { 
+		height: 275px; 
 	}
 	
 	header h1 {

@@ -109,26 +109,20 @@
 	<script>
   		$(document).ready(function() {
  
-  		$("#owl-demo").owlCarousel({
- 
-     	autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
-      	items : 2,
-      	itemsDesktop : [1199,3],
-      	itemsDesktopSmall : [979,3]
- 
-  		});
+	  		$("#owl-demo").owlCarousel({
+	     		autoPlay: 3000, //Set AutoPlay to 3 	seconds
+	      		items : 2,
+	      		itemsDesktop : [1199,3],
+	      		itemsDesktopSmall : [979,3]
+	  		});
+
+  			$('#hamburger').click(function(){
+  				console.log('clicked');
+				$('nav').toggleClass('active');
+			});
  
 		});
   	</script>
-
-  	<script>
-
- 	$('#hamburger').click(function() {      
-
-	$('.nav').addClass('active'); });
-
- 	</script>
 
  
 </body>
