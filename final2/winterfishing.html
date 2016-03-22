@@ -17,6 +17,13 @@
 		<img src="newlogo1.png" alt="Crossing fish hooks with north star" title="North Star Logo" height="175" width="140" align="left">
 		<h1>North Star Fishing</h1>
 		<p>Lake of the Woods, Minnesota</p>
+		
+		<div id="hamburger">
+        	<div></div>
+        	<div></div>
+        	<div></div>
+		</div>
+
 		<nav class="header">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="gallery.html">Gallery</a></li>
@@ -52,6 +59,19 @@
 	</section>
 
 	<footer>&copy; 2016 North Star Fishing | Baudette, MN | 1-555-FISH </footer>
+
+<!-- Javascript -->
+<script src="js/jquery-1.12.1.min.js"></script>
+
+	<script>
+  		$(document).ready(function() {
+
+  			$('#hamburger').click(function(){
+  				console.log('clicked');
+				$('nav').toggleClass('active');
+			});
+		});
+  	</script>
 
 </body>
 </html>

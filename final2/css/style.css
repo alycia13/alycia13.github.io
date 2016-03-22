@@ -457,6 +457,7 @@ footer {
 	}
 	
 }
+
 @media only screen and (max-width: 768px) {
 	body {
 		font-size: 14px;
@@ -469,11 +470,15 @@ footer {
 		display: block;
 	}
 	header img {
-		display: none;
+		right: -20px;
+	}
+	header h1 {
+		left: -16px;
 	}
 	header p {
 		display: none;
 	}
+
 	#gallery, #clean {
 		display: none;
 	}
@@ -510,10 +515,11 @@ footer {
 	border-radius: 50%;
 	font-size: 32px;
 	}
-	#icons {
-	padding: 2em 10em;
-	display: inline-block;
 
+	#icons {
+	padding: 2em 5em;
+	display: inline-block;
+	}	
 }
 @media only screen and (max-width: 480px) {
 	section {
@@ -524,15 +530,18 @@ footer {
 	nav {
 	height: 0;
 	overflow: hidden;
-	-webkit-transition: all 1s ease-in-out;   -moz-transition: all 1s ease-in-out;   -o-transition: all 1s ease-in-out;   transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;   
+	-moz-transition: all 1s ease-in-out;   
+	-o-transition: all 1s ease-in-out;   
+	transition: all 1s ease-in-out;
 	}
 
 	nav.active { 
-		height: 275px; 
+		height: 180px; 
 	}
 	
 	header h1 {
-		font-size: 1.5em;
+		font-size: 1.4em;
 		padding-left: 2.4em;
 		
 	}
@@ -550,8 +559,14 @@ footer {
 		font-size: 1.2em;
 		text-align: center;
 	}
+
+	header img {
+		right: -1px;
+		width: 2.1em;
+		height: 2.7em;
+	}
 	#icons {
-	padding: 2em 4em;
+	padding: 2em 2em;
 	display: inline-block;
 	}
 	#hamburger {
