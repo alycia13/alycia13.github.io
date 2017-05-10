@@ -214,6 +214,11 @@ nav ul li a:hover {
 .info_box img #emailicon {
 	padding-bottom: 1em;
 }
+.whitewrapper {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
 
 
 

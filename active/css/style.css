@@ -192,7 +192,7 @@ nav ul li a:hover {
 	font-size: 2.5em;
 }
 .info_box p {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 .info_box img {
 	width: 20%;
@@ -214,6 +214,37 @@ nav ul li a:hover {
 .info_box img #emailicon {
 	padding-bottom: 1em;
 }
+.overview {
+	background-color: white;
+}
+.services:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+.services2 {
+	/*width: 85%;*/
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 7em;
+}
+.list {
+	width: 54%;
+	font-size: 1.3em;
+	margin-left: 7.5%;
+	float: left;
+	margin-right: -17em;
+}
+.list ul li {
+	list-style-type: none;
+	padding-bottom: 2em;
+}
+
+.list-image img {
+	width: 53%;
+}
+
+
 
 
 
