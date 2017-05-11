@@ -217,6 +217,7 @@ nav ul li a:hover {
 }
 .overview {
 	background-color: white;
+	padding-bottom: 5em;
 }
 .services:after {
 	content: "";
@@ -231,7 +232,7 @@ nav ul li a:hover {
 	font-size: 1.5em;
 	margin-left: 4.5%;
 	float: left;
-	margin-right: 2em;
+	margin-right: 7em;
 	padding-right: 3.1em;
 }
 .list ul li {
@@ -239,7 +240,7 @@ nav ul li a:hover {
 }
 
 .list-image img {
-	width: 53%;
+	width: 45%;
 }
 .list #featurebutton a {
 	margin: 0 auto;
