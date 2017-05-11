@@ -153,7 +153,7 @@ nav ul li a:hover {
 	padding: 0 4em;
 }
 
-.services, .services2 {
+.services, .services2, .services3 {
 	/*width: 85%;*/
 	margin: 0 auto;
 	text-align: center;
@@ -255,7 +255,11 @@ nav ul li a:hover {
 	margin: 0 auto;
 
 }
-
+.services2:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
 
 
 
