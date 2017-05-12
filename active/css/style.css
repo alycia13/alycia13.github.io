@@ -159,8 +159,8 @@ nav ul li a:hover {
 	text-align: center;
 	padding-top: 7em;
 }
-.info_heading{
-	width: 50%;
+.info_heading {
+	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -183,8 +183,8 @@ nav ul li a:hover {
 	float: left;
 	text-align: center;
 	margin: 0 auto;
-	padding: 8em 3em 5em 3em;
-	height: 450px;
+	padding: 6em 3em 0em 3em;
+	height: 45em;
 }
 .info_box h1 {
 	text-transform: uppercase;
@@ -261,5 +261,51 @@ nav ul li a:hover {
   	clear: both;
 }
 
+.thirdbox {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+	padding: 3em 3em 0em 3em;
+	height: 30em;
+}
+.thirdbox h1 {
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-top: 3em;
+	font-size: 2.5em;
+}
+.thirdbox p {
+	font-size: 1.3em;
+}
 
 
+.line {
+	width: 25%;
+	border-bottom: 3px solid black;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 1em;
+	margin-bottom: 1em;
+}
+.services3 {
+	width: 70%;
+}
+.services3:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+	
+.services3button {
+	width: 50%;
+	padding-top: 1em;
+	margin: 0 auto;
+	text-align: center;
+}
+.services3button span {
+	padding: 0em 3em 0em 3em;
+}
+.services3button a img {
+	width: 22%;
+}
