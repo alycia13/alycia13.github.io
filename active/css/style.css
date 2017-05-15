@@ -17,7 +17,7 @@ body {
   font-weight: 300;
   color: black;
   line-height: 1.4;
-  background-color: #e3e1dc
+  background-color: #e3e1dc;
 }
 
 .wrapper {
@@ -215,6 +215,8 @@ nav ul li a:hover {
 .info_box img #emailicon {
 	padding-bottom: 1em;
 }
+
+
 .overview {
 	background-color: white;
 	padding-bottom: 5em;
@@ -308,4 +310,35 @@ nav ul li a:hover {
 }
 .services3button a img {
 	width: 22%;
+}
+
+footer {
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2em 0 4em 0;
+}
+.footerup {
+	padding-top: 6em;
+}
+.toe {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+footer .footerup:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+.calltextfooter a {
+	text-decoration: none;
+	color: black;
+}
+.calltextfooter img {
+	width: 10%;
+	padding-top: 2em;
+	text-align: center;
+	margin: 0 auto;
 }
