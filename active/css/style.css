@@ -333,6 +333,23 @@ nav ul li a:hover {
 	width: 22%;
 }
 
+.pricetable2 {
+	width: 100%;
+	background-color: white;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+.pricetable2 h1 {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 2em;
+}
+.pricetable2 table {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 2em;
+
+}
 
 footer {
 	width: 85%;
@@ -364,3 +381,6 @@ footer .footerup:after {
 	text-align: center;
 	margin: 0 auto;
 }
+
+
+
