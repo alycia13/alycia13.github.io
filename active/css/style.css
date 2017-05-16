@@ -292,6 +292,7 @@ nav ul li a:hover {
 }
 .services3 {
 	width: 70%;
+	padding-bottom: 2em;
 }
 .services3:after {
 	content: "";
@@ -310,7 +311,28 @@ nav ul li a:hover {
 }
 .services3button a img {
 	width: 22%;
+	padding-bottom: 6em;
 }
+
+.grow {
+  background-image: url('chair.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0 0 23% 0;
+  position: relative;
+  background-size: cover;
+  height: 70em;
+  padding-top: 20em;
+
+}
+.getstartedtoday {
+	margin: 0 auto;
+	text-align: center;
+}
+.grow a img {
+	width: 22%;
+}
+
 
 footer {
 	width: 85%;
