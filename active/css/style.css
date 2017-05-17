@@ -382,5 +382,24 @@ footer .footerup:after {
 	margin: 0 auto;
 }
 
+/*-------------Responsive--------------*/
+
+@media only screen and (max-width: 1024px) {
+	body {
+		font-size: 20px;
+	}
+	.topleft {
+		display: none;
+	}
+	.topright {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.info {
+		padding: 0;
+	}
+}
 
 
