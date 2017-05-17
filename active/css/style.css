@@ -9,8 +9,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 10px;
@@ -24,7 +22,9 @@ body {
 	width: 85%;
 	margin: 0 auto;
 	color: black;
-}
+}	
+
+/*----------------HOME - HEADER-----------------*/
 
 .navigation1 {
 	height: auto;
@@ -153,6 +153,7 @@ nav ul li a:hover {
 	padding: 0 4em;
 }
 
+/*----------------HOME - SERVICES -----------------*/
 .services, .services2, .services3 {
 	/*width: 85%;*/
 	margin: 0 auto;
@@ -216,7 +217,7 @@ nav ul li a:hover {
 	padding-bottom: 1em;
 }
 
-
+/*----------------HOME - OVERVIEW-----------------*/
 .overview {
 	background-color: white;
 	padding-bottom: 5em;
@@ -262,7 +263,7 @@ nav ul li a:hover {
   	display: table;
   	clear: both;
 }
-
+/*----------------HOME - FEATURES-----------------*/
 .thirdbox {
 	width: 33.3%;
 	float: left;
@@ -314,6 +315,8 @@ nav ul li a:hover {
 	padding-bottom: 6em;
 }
 
+/*----------------HOME - CONCLUSION-----------------*/
+
 .grow {
   background-image: url('chair.png');
   background-repeat: no-repeat;
@@ -333,6 +336,8 @@ nav ul li a:hover {
 	width: 22%;
 }
 
+/*----------------HOME - PRICING-----------------*/
+
 .pricetable2 {
 	width: 100%;
 	background-color: white;
@@ -350,6 +355,8 @@ nav ul li a:hover {
 	padding-top: 2em;
 
 }
+
+/*----------------HOME - FOOTER-----------------*/
 
 footer {
 	width: 85%;
@@ -382,11 +389,12 @@ footer .footerup:after {
 	margin: 0 auto;
 }
 
-/*-------------Responsive--------------*/
+/*-------------HOME - RESPONSIVE--------------*/
 
 @media only screen and (max-width: 1024px) {
 	body {
 		font-size: 20px;
+		width: 1024px;
 	}
 	.topleft {
 		display: none;
@@ -400,6 +408,85 @@ footer .footerup:after {
 	.info {
 		padding: 0;
 	}
-}
+	.badge {
+		display: none;
+		margin-left: 0;
+	}
+	.header {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		padding: 0;
+	}
+	.navigation2 {
+		height: auto;
+	}
+	.your {
+		width: 90%;
+	}
+	.intro {
+		height: auto;
+		padding: 0;
+	}
+	.wrapper {
+		width: 100%;
+	}
+	.info_box {
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.list-image {
+		display: none;
+	}
+	.list {
+		width: 90%;
+		float: none;
+		padding: 0;
+	}
+	#featurebutton {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.list #featurebutton a {
+		width: 70%;
+		padding: 0;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+
+	}
+	.list #featurebutton a img {
+		width: 50%;
+	}
+	.services3 {
+		width: 90%;
+	}
+	.info_heading {
+		width: 90%;
+	}
+	.thirdbox {
+		float: none;
+		width: 90%;
+		height: auto;
+	}	
+	.thirdbox h1 {
+		padding-top: 2em;
+	}
+	.services3button {
+		width: 100%;
+	}
+	.grow {
+		height: auto;
+		padding: 5em 0 3em 0;
+	}
+	.grow a img {
+		width: 40%;
+	}
+	footer {
+		width: 100%;		
+	}
 
 
