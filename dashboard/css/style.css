@@ -63,14 +63,14 @@ nav a {
 	line-height: 1.2em;
 }
 
-nav a:hover {
+nav a:hover, nav a.current {
 	background-color: #a7a7a7;
 	text-decoration: underline;
 }
 
 
-/*HOME*/
-.calendar {
+/*DASHBOARD*/
+.dashboard {
 	width: 100%;
 }
 
@@ -115,6 +115,15 @@ nav a:hover {
   	display: table;
   	clear: both;
 }
+
+/*COMMUNICATION*/
+.compose img{
+	padding: 1em;
+	width: 20%;
+}
+
+
+
 
 
 /*RESPONSIVE */
