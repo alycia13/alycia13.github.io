@@ -48,7 +48,7 @@ header {
 
 /*VERT NAVIGATION MENU*/
 nav {
-	width: 12em;
+	width: 20%;
 	float: left;
 }
 
@@ -71,7 +71,8 @@ nav a:hover, nav a.current {
 
 /*DASHBOARD*/
 .dashboard {
-	width: 100%;
+	width: 80%;
+	float: right;
 }
 
 .boxinfo {
@@ -117,13 +118,111 @@ nav a:hover, nav a.current {
 }
 
 /*COMMUNICATION*/
+
 .compose img{
-	padding: 1em;
+	padding: 1em 1em 0 1em;
 	width: 20%;
 }
+.inbox .tabs, .inbox .emailcontent {
+	margin: 0 1em 0 1em;
+}
+/*Email Tabs*/
+ .tg  {
+ 	border-collapse:collapse;
+ 	border-spacing:0;
+ }
 
+ .tg td{
+ 	font-size:14px;
+ 	padding:7px 5px;
+ /*	border:solid 1px white;*/
+ 	overflow:hidden;
+ 	word-break:normal;
+ }
+ .tg th{
+ 	font-size:14px;
+ 	font-weight:normal;
+ 	padding:7px 5px;
+ 	border: solid 1px white;
+ 	border-width:1px;
+ 	overflow:hidden;
+ 	word-break:normal;
+ 	background-color: #e3e1dc;
+ }
+ .tg .tg-s6z2{
+ 	text-align:center
+ }
+ .tg .tg-baqh{
+ 	text-align:center;
+ 	vertical-align:top
+ }
+ .tg .tg-hgcj{
+ 	font-weight:bold;
+ 	text-align:center;
+ 	background-color: #a7a7a7;
+ }
+@media screen and (max-width: 767px) {
+	.tg {
+		width: auto !important;
+		}
+	.tg col {
+		width: auto !important;
+		}
+	.tg-wrap {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		}
+	}
 
-
+/*Email Inbox Content*/
+.tg2 {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.tg2 td{
+	font-size:10px;
+	padding:5px 5px;
+/*	border-style:solid;*/
+/*	border-width:1px;*/
+	overflow:hidden;
+	word-break:normal;
+}
+.tg2 tr {
+	height: 10px;
+}
+.tg2 th{
+	font-size:10px;
+	font-weight:normal;
+	padding:5px 5px;
+/*	border-style:solid;*/
+/*	border-width:1px;*/
+	overflow:hidden;
+	word-break:normal;
+}
+.toprow th {
+	padding: 10px 5px;
+}
+.tg2 .tg-0ord{
+	text-align:right
+}
+.tg2 .tg-s6z2{
+	text-align:center
+}
+.tg2 select {
+	background-color: #f8f8f8;
+	border: none;
+}
+.tg2 .tg-031e {
+	text-align: left;
+}
+.tg2 .tg-baqh{
+	text-align:center;
+	vertical-align:top
+}
+.tg2 .tg-yw4l{
+	vertical-align:top
+}
+@media screen and (max-width: 767px) {.tg2 {width: auto !important;}.tg2 col {width: auto !important;}.tg-wrap2 {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
 
 
 /*RESPONSIVE */
