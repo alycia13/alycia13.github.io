@@ -232,6 +232,20 @@ nav a:hover, nav a.current {
 	background-color:#ffffff;
 	text-align:center
 }
+.sendmsg {
+	font-family: 'Poppins', sans-serif;
+	font-size: .5em;
+	text-align: center;
+	margin: 5% auto;
+}
+.sendmsg select {
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	border-radius: 0px;
+}
+.sendmsg select option {
+	font-family: initial;
+}
 
 /*COMMUNICATION*/
 
