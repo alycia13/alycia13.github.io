@@ -96,7 +96,7 @@
     <div class="boxinfo"  style="border-bottom: 5px solid #11b4e4;">
           <div class="left">
             <p class="boxhead">Calls</p>
-            <p class="boxicon"><img src="images/calls.png"></p>
+            <p class="boxicon"><button id="myBtn"><img src="images/calls.png"></button></p>
           </div>
           <div class="right">
             <a href="#">7</a>
@@ -150,6 +150,57 @@
 	</section>
 
 
+<!-- Trigger/Open The Modal -->
+<!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div id="closer"><span class="close">&times;</span></div>
+    <div id="numberpad"><span>555-555-5555</span>&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-left fa-1x" aria-hidden="true"></i></div>
+<!-- Dialer Table -->
+<table class="dialer" style="undefined;table-layout: fixed; width: 228px">
+<colgroup>
+<col style="width: 76px">
+<col style="width: 76px">
+<col style="width: 76px">
+</colgroup>
+  <tr>
+    <th class="tg-zlxb">1</th>
+    <th class="tg-zlxb">2<br>ABC</th>
+    <th class="tg-zlxb">3<br>DEF</th>
+  </tr>
+  <tr>
+    <td class="tg-zlxb">4<br>GHI</td>
+    <td class="tg-zlxb">5<br>JKL</td>
+    <td class="tg-zlxb">6<br>MNO</td>
+  </tr>
+  <tr>
+    <td class="tg-zlxb">7<br>PQRS</td>
+    <td class="tg-zlxb">8<br>TUV</td>
+    <td class="tg-zlxb">9<br>WXYZ</td>
+  </tr>
+  <tr>
+    <td class="tg-zlxb">*</td>
+    <td class="tg-zlxb">0</td>
+    <td class="tg-zlxb">#</td>
+  </tr>
+  <tr>
+    <td class="tg-zlxb"><i class="fa fa-trash-o fa-3x" aria-hidden="true"></i></td>
+    <td class="tg-nbpc"><i class="fa fa-phone fa-3x" aria-hidden="true"></i></td>
+    <td class="tg-zlxb"><i class="fa fa-microphone-slash fa-3x" aria-hidden="true"></i></td>
+  </tr>
+</table>
+
+
+
+  </div><!-- end modal content -->
+
+</div><!-- end modal div -->
+
+
+
 
 <!-- Javascript -->
 <script src="java.js"></script>
@@ -160,6 +211,34 @@
   				$('nav').toggleClass('active');
   				});
   		</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
   		
 </body>
