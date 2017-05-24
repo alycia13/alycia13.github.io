@@ -142,7 +142,7 @@ nav a:hover, nav a.current {
     border: 1px solid #888;
     width: 21%;
 }
-#numberpad {
+.numberpad {
 /*	width: 70%;*/
 	font-size: .75em;
 	font-weight: 400;
@@ -154,7 +154,7 @@ nav a:hover, nav a.current {
 	position: relative;
 	top: -1em;
 }
-#numberpad span {
+.numberpad span {
 	padding: .2em 1.5em;
 	background-color: #ffffff;
 
@@ -170,7 +170,7 @@ nav a:hover, nav a.current {
     font-size: .58em;
     /*font-weight: bold;*/
 }
-#closer {
+.closer {
 	width: 100%;
 	text-align: right;
 	position: relative;
@@ -188,12 +188,12 @@ nav a:hover, nav a.current {
     cursor: pointer;
 }
 
-#myBtn {
+/*.myBtn {
 	border: none;
-/*	background-color: white;
+	background-color: white;
 	width: 100%;
-	text-align: left;*/
-}
+	text-align: left;
+}*/
 
 /*DIALER*/
 .dialer  {
