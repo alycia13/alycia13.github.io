@@ -384,6 +384,7 @@ nav a:hover, nav a.current {
 .month {
 	text-align: center;
 	margin: 0 auto;
+	padding: 1em;
 }
 .calendar-buttons {
 	/*padding: .8em 0 .8em .8em;*/
