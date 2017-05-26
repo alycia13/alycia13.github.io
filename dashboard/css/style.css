@@ -188,13 +188,6 @@ nav a:hover, nav a.current {
     cursor: pointer;
 }
 
-/*.myBtn {
-	border: none;
-	background-color: white;
-	width: 100%;
-	text-align: left;
-}*/
-
 /*DIALER*/
 .dialer  {
 	border-collapse:collapse;
@@ -383,8 +376,70 @@ nav a:hover, nav a.current {
 .tg2 .tg-yw4l{
 	vertical-align:top
 }
-@media screen and (max-width: 767px) {.tg2 {width: auto !important;}.tg2 col {width: auto !important;}.tg-wrap2 {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
 
+@media screen and (max-width: 767px) {.tg2 {width: auto !important;}.tg2 col {width: auto !important;}.tg-wrap2 {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
+
+
+/*CALENDAR*/
+.month {
+	text-align: center;
+	margin: 0 auto;
+}
+.calendar-buttons {
+	/*padding: .8em 0 .8em .8em;*/
+	text-align: center;
+	margin: 0 auto;
+}
+.calendar-box {
+	margin: 1em;
+}
+.weekdays {
+	background-color: #11b4e4;
+	margin: 0;
+    padding: .1em 0;
+}
+.weekdays li {
+	display: inline-block;
+    width: 13.6%;
+    color: white;
+    text-align: center;
+}
+.days {
+  /*  padding: 10px 0;*/
+    background: #fff;
+ /*   margin: 0;*/
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    height: 8em;
+    text-align: right;
+    padding: 7px;
+    border: 1px solid #e3e1dc;
+    font-size:12px;
+    color: #071689;
+
+}
+
+.days li.active {
+   /* padding: 5px;*/
+    background: #fdf8e2;
+    color: #071689 !important
+}
+
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%; font-size: 12px;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
 
 /*RESPONSIVE */
 
