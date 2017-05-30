@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper {
-	width: 85%;
+	width: 90%;
 	margin: 0 auto;
 	color: black;
 }	
@@ -132,7 +132,7 @@ nav ul li a:hover {
 .your {
 	text-align: center;
 	margin: 0 auto;
-	width: 42%;
+	width: 60%;
 	padding-top: 7%;
 }
 .your h1 {
@@ -185,7 +185,7 @@ nav ul li a:hover {
 	text-align: center;
 	margin: 0 auto;
 	padding: 6em 3em 0em 3em;
-	height: 45em;
+	height: 35em;
 }
 .info_box h1 {
 	text-transform: uppercase;
@@ -221,6 +221,7 @@ nav ul li a:hover {
 .overview {
 	background-color: white;
 	padding-bottom: 5em;
+	width: 100%;
 }
 .services:after {
 	content: "";
@@ -388,6 +389,18 @@ footer .footerup:after {
 	text-align: center;
 	margin: 0 auto;
 }
+
+/*-------FEATURES PAGE-------------*/
+section .textfeatures {
+	background-color: white;
+	width: 80%;
+}
+.features_getstarted a img {
+	padding: 1em;
+	width: 20%;
+	margin: 0em 50em;
+	}
+
 
 /*-------------HOME - RESPONSIVE--------------*/
 
